@@ -1,4 +1,4 @@
-CLASS zzlrn_cl_s4d400_cls_constructor DEFINITION
+CLASS zzlrn_cl_s4d400_cls_constructo DEFINITION
   PUBLIC
   FINAL
   CREATE PUBLIC .
@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zzlrn_cl_s4d400_cls_constructor IMPLEMENTATION.
+CLASS zzlrn_cl_s4d400_cls_constructo IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.

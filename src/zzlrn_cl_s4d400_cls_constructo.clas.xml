@@ -3,7 +3,7 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <VSEOCLASS>
-    <CLSNAME>ZZLRN_CL_S4D400_CLS_CONSTRUCTOR</CLSNAME>
+    <CLSNAME>ZZLRN_CL_S4D400_CLS_CONSTRUCTO</CLSNAME>
     <LANGU>E</LANGU>
     <DESCRIPT>Solution: Private attributes and constructor</DESCRIPT>
     <STATE>1</STATE>
