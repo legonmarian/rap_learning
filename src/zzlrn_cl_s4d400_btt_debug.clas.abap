@@ -1,4 +1,4 @@
-CLASS /lrn/cl_s4d400_btt_debug DEFINITION
+CLASS zzlrn_cl_s4d400_btt_debug DEFINITION
   PUBLIC
   FINAL
   CREATE PUBLIC .
@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS /LRN/CL_S4D400_BTT_DEBUG IMPLEMENTATION.
+CLASS zzlrn_cl_s4d400_btt_debug IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.

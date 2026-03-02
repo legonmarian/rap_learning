@@ -1,4 +1,4 @@
-CLASS /lrn/cl_s4d400_cls_local_class DEFINITION
+CLASS zzlrn_cl_s4d400_cls_local_class DEFINITION
   PUBLIC
   FINAL
   CREATE PUBLIC .
@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS /LRN/CL_S4D400_CLS_LOCAL_CLASS IMPLEMENTATION.
+CLASS zzlrn_cl_s4d400_cls_local_class IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.

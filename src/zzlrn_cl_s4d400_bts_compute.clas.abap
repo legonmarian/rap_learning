@@ -1,4 +1,4 @@
-CLASS /lrn/cl_s4d400_bts_compute DEFINITION
+CLASS zzlrn_cl_s4d400_bts_compute DEFINITION
   PUBLIC
   FINAL
   CREATE PUBLIC .
@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS /LRN/CL_S4D400_BTS_COMPUTE IMPLEMENTATION.
+CLASS zzlrn_cl_s4d400_bts_compute IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.

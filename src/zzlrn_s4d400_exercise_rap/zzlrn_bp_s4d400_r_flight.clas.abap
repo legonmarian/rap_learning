@@ -1,15 +1,15 @@
-class /LRN/BP_S4D400_R_FLIGHT definition
-  public
-  abstract
-  final
-  for behavior of /LRN/S4D400_R_FLIGHT .
+CLASS zzlrn_bp_s4d400_r_flight DEFINITION
+  PUBLIC
+  ABSTRACT
+  FINAL
+  FOR BEHAVIOR OF zzlrn_s4d400_r_flight .
 
-public section.
-protected section.
-private section.
+  PUBLIC SECTION.
+  PROTECTED SECTION.
+  PRIVATE SECTION.
 ENDCLASS.
 
 
 
-CLASS /LRN/BP_S4D400_R_FLIGHT IMPLEMENTATION.
+CLASS zzlrn_bp_s4d400_r_flight IMPLEMENTATION.
 ENDCLASS.

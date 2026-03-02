@@ -3,7 +3,7 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <BDEF>
-    <NAME>/LRN/S4D400_C_FLIGHT</NAME>
+    <NAME>ZZLRN_S4D400_C_FLIGHT</NAME>
     <TYPE>BDEF/BDO</TYPE>
     <DESCRIPTION>##GENERATED #</DESCRIPTION>
     <DESCRIPTION_TEXT_LIMIT>60</DESCRIPTION_TEXT_LIMIT>

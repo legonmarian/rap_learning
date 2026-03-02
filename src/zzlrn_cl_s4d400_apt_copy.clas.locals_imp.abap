@@ -19,7 +19,7 @@ CLASS lcl_copy_data DEFINITION.
 
   PROTECTED SECTION.
   PRIVATE SECTION.
-    DATA flights    TYPE STANDARD TABLE OF /lrn/s4d400_apt WITH NON-UNIQUE DEFAULT KEY.
+    DATA flights    TYPE STANDARD TABLE OF zzlrn_s4d400_apt WITH NON-UNIQUE DEFAULT KEY.
 
     DATA table_name TYPE tabname.
 
@@ -38,10 +38,10 @@ CLASS lcl_copy_data DEFINITION.
     METHODS matches_template
       RETURNING VALUE(result) TYPE abap_bool.
 
-    CONSTANTS template_table TYPE tabname VALUE '/LRN/S4D400_APT'.
+    CONSTANTS template_table TYPE tabname VALUE 'ZZLRN_S4D400_APT'.
     CONSTANTS source_table   TYPE tabname VALUE '/DMO/FLIGHT'.
 
-    ENDCLASS.
+ENDCLASS.
 
 CLASS lcl_copy_data IMPLEMENTATION.
 

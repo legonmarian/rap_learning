@@ -1,4 +1,4 @@
-CLASS /lrn/cl_s4d400_cls_constructor DEFINITION
+CLASS zzlrn_cl_s4d400_cls_constructor DEFINITION
   PUBLIC
   FINAL
   CREATE PUBLIC .
@@ -12,10 +12,10 @@ ENDCLASS.
 
 
 
-CLASS /LRN/CL_S4D400_CLS_CONSTRUCTOR IMPLEMENTATION.
+CLASS zzlrn_cl_s4d400_cls_constructor IMPLEMENTATION.
 
 
-    METHOD if_oo_adt_classrun~main.
+  METHOD if_oo_adt_classrun~main.
 
     DATA connection TYPE REF TO lcl_connection.
     DATA connections TYPE TABLE OF REF TO lcl_connection.

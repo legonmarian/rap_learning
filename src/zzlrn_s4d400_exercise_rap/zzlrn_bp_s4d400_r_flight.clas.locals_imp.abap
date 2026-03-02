@@ -20,7 +20,7 @@ CLASS lcl_handler IMPLEMENTATION.
     DATA failed_record   LIKE LINE OF failed-flight.
     DATA reported_record LIKE LINE OF reported-flight.
 
-    READ ENTITIES OF /lrn/s4d400_r_flight IN LOCAL MODE
+    READ ENTITIES OF zzlrn_s4d400_r_flight IN LOCAL MODE
          ENTITY flight
          FIELDS ( price )
          WITH CORRESPONDING #( keys )
@@ -34,9 +34,9 @@ CLASS lcl_handler IMPLEMENTATION.
 
         reported_record-%tky = flight-%tky.
 
-       reported_record-%msg =
+        reported_record-%msg =
           new_message(
-            id       = '/LRN/S4D400'
+            id       = 'ZZLRN_S4D400'
             number   = '101'
             severity = if_abap_behv_message=>severity-error
           ).
@@ -53,7 +53,7 @@ CLASS lcl_handler IMPLEMENTATION.
     DATA reported_record LIKE LINE OF reported-flight.
     DATA exists TYPE abap_bool.
 
-    READ ENTITIES OF /lrn/s4d400_r_flight IN LOCAL MODE
+    READ ENTITIES OF zzlrn_s4d400_r_flight IN LOCAL MODE
          ENTITY flight
          FIELDS ( currencycode )
          WITH CORRESPONDING #( keys )
@@ -77,7 +77,7 @@ CLASS lcl_handler IMPLEMENTATION.
 
         reported_record-%msg =
           new_message(
-            id       = '/LRN/S4D400'
+            id       = 'ZZLRN_S4D400'
             number   = '102'
             severity = if_abap_behv_message=>severity-error
             v1       = flight-currencycode

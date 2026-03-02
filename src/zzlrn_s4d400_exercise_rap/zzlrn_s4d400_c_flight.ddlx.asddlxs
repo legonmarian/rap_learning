@@ -5,7 +5,7 @@
     typeNamePlural: 'Flights'
   }
 }
-annotate view /LRN/S4D400_C_FLIGHT with
+annotate view ZZLRN_S4D400_C_FLIGHT with
   {
     @UI.facet: [ {
       id: 'idIdentification',

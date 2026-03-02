@@ -1,4 +1,4 @@
-CLASS /lrn/cl_s4d400_apt_copy DEFINITION
+CLASS zzlrn_cl_s4d400_apt_copy DEFINITION
   PUBLIC
   FINAL
   CREATE PUBLIC .
@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS /LRN/CL_S4D400_APT_COPY IMPLEMENTATION.
+CLASS zzlrn_cl_s4d400_apt_copy IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.

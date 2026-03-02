@@ -3,7 +3,7 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <DDLS>
-    <DDLNAME>/LRN/S4D400_C_FLIGHT</DDLNAME>
+    <DDLNAME>ZZLRN_S4D400_C_FLIGHT</DDLNAME>
     <DDLANGUAGE>E</DDLANGUAGE>
     <DDTEXT>##GENERATED #</DDTEXT>
     <SOURCE_TYPE>P</SOURCE_TYPE>

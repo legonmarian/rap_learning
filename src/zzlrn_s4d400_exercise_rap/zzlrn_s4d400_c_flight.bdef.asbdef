@@ -2,7 +2,7 @@ projection;
 strict ( 2 );
 use draft;
 
-define behavior for /LRN/S4D400_C_FLIGHT alias Flight
+define behavior for ZZLRN_S4D400_C_FLIGHT alias Flight
 use etag
 {
 

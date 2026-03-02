@@ -3,9 +3,9 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <VSEOCLASS>
-    <CLSNAME>/LRN/CL_S4D400_APS_COPY</CLSNAME>
+    <CLSNAME>ZZLRN_CL_S4D400_APS_COPY</CLSNAME>
     <LANGU>E</LANGU>
-    <DESCRIPT>Solution: Copy flight data to /LRN/S4D400AFLGT</DESCRIPT>
+    <DESCRIPT>Solution: Copy flight data to ZZLRN_S4D400AFLGT</DESCRIPT>
     <STATE>1</STATE>
     <CLSCCINCL>X</CLSCCINCL>
     <FIXPT>X</FIXPT>
