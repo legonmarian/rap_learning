@@ -1,4 +1,4 @@
-CLASS zcl_s4d400_cls_local_clas DEFINITION
+CLASS zcl_s4d400_cls_local_class DEFINITION
   PUBLIC
   FINAL
   CREATE PUBLIC .
@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_s4d400_cls_local_clas IMPLEMENTATION.
+CLASS zcl_s4d400_cls_local_class IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.
