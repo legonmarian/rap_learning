@@ -1,4 +1,4 @@
-CLASS zzlrn_cl_s4d400_aps_copy DEFINITION
+CLASS zcl_s4d400_aps_copy DEFINITION
   PUBLIC
   FINAL
   CREATE PUBLIC .
@@ -12,11 +12,11 @@ ENDCLASS.
 
 
 
-CLASS zzlrn_cl_s4d400_aps_copy IMPLEMENTATION.
+CLASS zcl_s4d400_aps_copy IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.
-    CONSTANTS table_name TYPE tabname VALUE 'ZZLRN_400FLIGHT'.
+    CONSTANTS table_name TYPE tabname VALUE 'Z400FLIGHT'.
 
     TRY.
         DATA(copier) = NEW lcl_copy_data( table_name ).

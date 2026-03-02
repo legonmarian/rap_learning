@@ -1,4 +1,4 @@
-@EndUserText.label: 'Service definition forZZLRN_S4D400_C_FLIGHT'
-define service ZZLRN_S4D400_FLIGHT {
-  expose ZZLRN_S4D400_C_FLIGHT as Flight;
+@EndUserText.label: 'Service definition forZS4D400_C_FLIGHT'
+define service ZS4D400_FLIGHT {
+  expose ZS4D400_C_FLIGHT as Flight;
 }

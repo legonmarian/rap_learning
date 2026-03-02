@@ -3,7 +3,7 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <VSEOCLASS>
-    <CLSNAME>ZZLRN_CL_S4D400_DBS_CDS</CLSNAME>
+    <CLSNAME>ZCL_S4D400_DBS_CDS</CLSNAME>
     <LANGU>E</LANGU>
     <DESCRIPT>Solution: Read Data From a Database Table</DESCRIPT>
     <STATE>1</STATE>

@@ -1,4 +1,4 @@
-CLASS zzlrn_cl_s4d400_bts_branch DEFINITION
+CLASS zcl_s4d400_bts_branch DEFINITION
   PUBLIC
   FINAL
   CREATE PUBLIC .
@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zzlrn_cl_s4d400_bts_branch IMPLEMENTATION.
+CLASS zcl_s4d400_bts_branch IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.

@@ -1,8 +1,8 @@
-CLASS zzlrn_bp_s4d400_r_flight DEFINITION
+CLASS zbp_s4d400_r_flight DEFINITION
   PUBLIC
   ABSTRACT
   FINAL
-  FOR BEHAVIOR OF zzlrn_s4d400_r_flight .
+  FOR BEHAVIOR OF zs4d400_r_flight .
 
   PUBLIC SECTION.
   PROTECTED SECTION.
@@ -11,5 +11,5 @@ ENDCLASS.
 
 
 
-CLASS zzlrn_bp_s4d400_r_flight IMPLEMENTATION.
+CLASS zbp_s4d400_r_flight IMPLEMENTATION.
 ENDCLASS.

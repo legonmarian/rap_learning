@@ -1,4 +1,4 @@
-CLASS zzlrn_cl_s4d400_dbs_select DEFINITION
+CLASS zcl_s4d400_dbs_select DEFINITION
   PUBLIC
   FINAL
   CREATE PUBLIC .
@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zzlrn_cl_s4d400_dbs_select IMPLEMENTATION.
+CLASS zcl_s4d400_dbs_select IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.

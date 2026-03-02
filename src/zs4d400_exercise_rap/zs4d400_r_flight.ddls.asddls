@@ -1,7 +1,7 @@
 @AccessControl.authorizationCheck: #CHECK
 @EndUserText.label: '##GENERATED #'
-define root view entity ZZLRN_S4D400_R_FLIGHT
-  as select from zzlrn_s4d400aflgt as Flight
+define root view entity ZS4D400_R_FLIGHT
+  as select from zs4d400aflgt as Flight
 {
   key carrier_id as CarrierID,
   key connection_id as ConnectionID,

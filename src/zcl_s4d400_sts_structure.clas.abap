@@ -1,4 +1,4 @@
-CLASS zzlrn_cl_s4d400_sts_structure DEFINITION
+CLASS zcl_s4d400_sts_structure DEFINITION
   PUBLIC
   FINAL
   CREATE PUBLIC .
@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zzlrn_cl_s4d400_sts_structure IMPLEMENTATION.
+CLASS zcl_s4d400_sts_structure IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.
